@@ -325,7 +325,7 @@ textarea{
   }
 
   .title-box{
-    margin: 0 15rem;
+    margin: 0 0 0 18rem;
     display: inline-block;
     align-self: center;
   }
@@ -340,7 +340,7 @@ textarea{
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr) ;
    align-self:center;
-   margin: 10rem 5rem 0;
+   margin: 10rem 7rem 0;
    width:80%
   }
 
