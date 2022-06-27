@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.4ab2c300.css",
+    "main.js": "/Portfolio/static/js/main.e7fcdb6d.js",
+    "static/js/787.ae0d8d37.chunk.js": "/Portfolio/static/js/787.ae0d8d37.chunk.js",
+    "static/media/manufacturing.jpg": "/Portfolio/static/media/manufacturing.3dd40e8def32c2ea8776.jpg",
+    "static/media/Resume.png": "/Portfolio/static/media/Resume.e54effacd925f4377516.png",
+    "static/media/Mechatronics-Engineer.jpg": "/Portfolio/static/media/Mechatronics-Engineer.def79ff79b97a1b5f8c6.jpg",
+    "static/media/flutterAppOne.png": "/Portfolio/static/media/flutterAppOne.68065651ceb56719aad7.png",
+    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.431320c7e588026c9ef4.pdf",
+    "static/media/flutterAppTwo.png": "/Portfolio/static/media/flutterAppTwo.8d67fd55c62853ae77f2.png",
+    "static/media/videogames.webp": "/Portfolio/static/media/videogames.63fb0999eddd963ea8c1.webp",
+    "index.html": "/Portfolio/index.html",
+    "main.4ab2c300.css.map": "/Portfolio/static/css/main.4ab2c300.css.map",
+    "main.e7fcdb6d.js.map": "/Portfolio/static/js/main.e7fcdb6d.js.map",
+    "787.ae0d8d37.chunk.js.map": "/Portfolio/static/js/787.ae0d8d37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ab2c300.css",
+    "static/js/main.e7fcdb6d.js"
+  ]
+}
