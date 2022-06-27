@@ -325,9 +325,8 @@ textarea{
   }
 
   .title-box{
-    margin: 0 0 0 18rem;
     display: inline-block;
-    align-self: center;
+    align-items: center;
   }
 
   .description-content{
@@ -335,7 +334,6 @@ textarea{
   }
 
   .card-list{
-    border:#000000 solid;
     display:grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr) ;
