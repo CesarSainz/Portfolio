@@ -15,7 +15,8 @@ html{
 }
 
 h3{
-  font-size:100%;
+  font-size:80%;
+  font-family: 'Martel', serif;  
 }
 
 
@@ -27,7 +28,6 @@ h3{
   margin: 0 25%;
   display: inline-block;
   align-self: center;
-  
 }
 
 .large-row{
@@ -355,7 +355,7 @@ textarea{
   }
 
   h3{
-    font-size:100%;
+    font-size:80%;
   }
 
 }
