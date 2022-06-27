@@ -14,6 +14,10 @@ html{
   margin: 0 10% 0;
 }
 
+h3{
+  font-size:100%;
+}
+
 
 .header{
   width:100%
@@ -193,12 +197,13 @@ table{
 
 .card{
   width:30%;
+  font-size:120%;
 }
 
 .button-source{
   background-color:black;
   text-decoration:underline;
-  font-size: 200%; 
+  font-size: 120%; 
   color: #FFFFFF;
   padding: .5%;
   margin: 0 0 0 20%;
@@ -213,8 +218,12 @@ table{
 }
 
 .project-pic{
-  height:700px;
+  height:600px;
   border-radius: 10%;
+}
+
+.project-description{
+  height:15%
 }
 
 
@@ -388,7 +397,7 @@ textarea{
       }
 
       h3{
-        font-size:80%;
+        font-size:120%;
       }
     
       .description-content{
@@ -440,6 +449,54 @@ textarea{
         text-align: center;
         align-items: center;
       }
+
+      /*PROJECTS*/
+      .card{
+        font-size:60%;
+      }
+
+      .project-pic{
+        height:200px;
+        border-radius: 10%;
+      }
+
+      .button-source{
+        font-size: 120%; 
+        width:90%;
+        margin: 0 0 0 5%;
+      }
+
+      .project-description{
+        height:30%;
+        margin: 0 0 0 5%;
+      }
+
+      /*CONTACT*/
+
+      .input-subject{
+        width:130%;
+        height:10%;
+        font-size: 80%;
+        font-family: 'Martel', serif;    
+        padding:2%
+      }
+      
+      textarea{
+        width:90%;
+        font-size:110%;
+      }
+      
+      .button-submit{
+        font-size: 80%; 
+        width: 20%;
+      }
+      
+      .button-submit:hover,.button-submit:active{
+        background-color:rgb(75, 75, 75);
+        cursor: pointer;
+      }
+
+      
 
 }
 
