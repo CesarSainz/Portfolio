@@ -34,7 +34,6 @@ function Contact(){
         <div className='button-icon icons'>
           <div><a href='https://www.linkedin.com/in/cesar-sainz/' className='button-links'><span className='icons'><AiFillLinkedin/></span></a></div>
           <div><a href='https://github.com/CesarSainz' className='button-links'><span className='icons'><AiFillGithub/></span></a></div>
-
         </div>
 
       <form onSubmit={sendEmail}>

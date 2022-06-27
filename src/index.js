@@ -6,11 +6,21 @@ import reportWebVitals from './reportWebVitals';
 import {Route, Routes, BrowserRouter} from 'react-router-dom'
 import About from './components/About';
 import Resume from './components/Resume';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <React.StrictMode>
     <App />
+<BrowserRouter>
+  <Routes>
+    <Route path = '/' element={<About />} />
+    <Route path = 'resume' element={<Resume />} />
+    <Route path = 'projects' element= {<Projects />} />
+    <Route path = 'contact' element= {<Contact />} />
+  </Routes>
+</BrowserRouter>
 </React.StrictMode>
 );
 

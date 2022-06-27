@@ -26,21 +26,13 @@ function App() {
         <th className='button'><a href = '/contact' className='button-links-header'>&nbsp;Contact</a></th>    
       </table>
   </div>
-
   <div>
 </div>
 
 
 <br></br>
 <br></br>
-<BrowserRouter>
-  <Routes>
-    <Route path = '/' element={<About />} />
-    <Route path = 'resume' element={<Resume />} />
-    <Route path = 'projects' element= {<Projects />} />
-    <Route path = 'contact' element= {<Contact />} />
-  </Routes>
-</BrowserRouter>
+
 
 
 
