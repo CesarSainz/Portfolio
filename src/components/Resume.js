@@ -1,9 +1,7 @@
 import { AiFillLinkedin,AiFillGithub, AiFillMail } from 'react-icons/ai';
-import {Document, Page, pdfjs} from 'react-pdf'
 import '../App.css';
 import './Navbar.jsx'
-import React, {useState} from 'react'
-import ResumeFile from '../assets/Resume.pdf'
+import React from 'react'
 import ResumeImage from '../assets/Resume.png'
 
 

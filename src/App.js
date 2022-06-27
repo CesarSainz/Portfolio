@@ -1,11 +1,5 @@
-import { AiFillLinkedin,AiFillGithub, AiFillMail } from 'react-icons/ai';
-import {Route, Routes, BrowserRouter} from 'react-router-dom'
 import './App.css';
 import './components/Navbar.jsx'
-import About from './components/About'
-import Resume from './components/Resume'
-import Contact from './components/Contact'
-import Projects from './components/Projects'
 
 
 
