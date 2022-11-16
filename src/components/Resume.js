@@ -21,8 +21,7 @@ function Resume(){
 
 
     <div className='description-content'>
-     <img className='resume' src={ResumeImage}></img> 
-     <div className='button-download'><a href='./assets/Resume.pdf' className='button-links-header' download>Download PDF</a></div>  
+     <img className='resume' src={ResumeImage}></img>
     </div>
 
     
