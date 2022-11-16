@@ -2,6 +2,7 @@ import '../App.css'
 import { AiFillLinkedin,AiFillGithub, AiFillMail } from 'react-icons/ai';
 import quizzler from '../assets/flutterAppOne.png'
 import xylophone from '../assets/flutterAppTwo.png'
+import creditcard from '../assets/creditCardProject.png'
 
 
 function Projects(){
@@ -12,7 +13,24 @@ function Projects(){
           <div><a href='https://www.linkedin.com/in/cesar-sainz/' className='button-links'><span className='icons'><AiFillLinkedin/></span></a></div>
           <div><a href='https://github.com/CesarSainz' className='button-links'><span className='icons'><AiFillGithub/></span></a></div>
         </div>
-                
+        <br></br><br></br>
+
+        <div className='subtitle'>
+            <h1 style={{textDecoration: "underline"}}>Web projects</h1>
+            <div className='projects'>
+                <div className='card'>
+                    <img className= 'project-pic' src={creditcard} />
+                    <div className='project-description'><h4>Interactive Credit Card submit page with filters made with HTML/CSS/JS.</h4></div>
+                    <a href='https://github.com/CesarSainz/creditcard'><span className='button-source'>Source code</span></a>
+                    <a href='https://creditcardcesarproject.netlify.app/'><span className='button-source'>Functioning Website</span></a>
+                </div>
+            <br></br>
+            <br></br>
+
+            </div>
+
+        </div>
+        <br></br><br></br><br></br><br></br>
         <div className='subtitle'>
             <h1 style={{textDecoration: "underline"}}>Mobile projects</h1>
             <div className='projects'>
@@ -29,11 +47,6 @@ function Projects(){
                 </div>
 
             </div>
-        </div>
-        <br></br><br></br>
-
-        <div className='subtitle'>
-            <h1 style={{textDecoration: "underline"}}>Web projects</h1>
         </div>
 
         </>
