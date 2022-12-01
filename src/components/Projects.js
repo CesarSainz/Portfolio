@@ -3,6 +3,7 @@ import { AiFillLinkedin,AiFillGithub, AiFillMail } from 'react-icons/ai';
 import quizzler from '../assets/flutterAppOne.png'
 import xylophone from '../assets/flutterAppTwo.png'
 import creditcard from '../assets/creditCardProject.png'
+import advicegenerator from '../assets/adviceGenerator.png'
 
 
 function Projects(){
@@ -17,6 +18,17 @@ function Projects(){
 
         <div className='subtitle'>
             <h1 style={{textDecoration: "underline"}}>Web projects</h1>
+            <div className='projects'>
+                <div className='card'>
+                    <img className= 'project-pic' src={advicegenerator} style={{width: '100%'}} />
+                    <div className='project-description'><h4>Web App showing advices, fetching data from the advice-generator API. Made with ReactJS.</h4></div>
+                    <a href='https://github.com/CesarSainz/advice-generator'><span className='button-source'>Source code</span></a>
+                    <a href='https://cesaradvice.netlify.app/'><span className='button-source'>Functioning Website</span></a>
+                </div>
+            <br></br>
+            <br></br>
+            </div><br></br><br></br><br></br><br></br>
+
             <div className='projects'>
                 <div className='card'>
                     <img className= 'project-pic' src={creditcard} />
